@@ -1,0 +1,31 @@
+PARA LA PARTE DE BLOG-HOME CSS 
+.entrada-blog {
+    display: flex;
+    justify-content: space-between;
+}
+
+.entrada-blog .imagen {
+    flex: 0 0 40%;
+}
+
+.entrada-blog .contenido-blog {
+    flex: 0 0 calc(60% - 4rem);
+}
+
+TEORIA DE LAS COLUMNAS
+/** Grid **/
+@media (min-width: 768px) {
+    .grid {
+        display: flex;
+        justify-content: space-between;
+    }
+    .columnas-4 {
+        flex: 0 0 calc(33.3% - 1rem);
+    }
+    .columnas-6 {
+        flex: 0 0 calc(50% - 1rem);
+    }
+    .columnas-8 {
+        flex: 0 0 calc(66.6% - 1rem);
+    }
+}
