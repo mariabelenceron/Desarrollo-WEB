@@ -1,0 +1,12 @@
+Box Sizing-Paul Irish
+Para que el padding no se vea afectado en Nada
+	html {
+    		box-sizing: border-box;
+    		height: 100%;
+	}
+
+	*,
+	*:before,
+	*:after {
+   		 box-sizing: inherit;
+	}
