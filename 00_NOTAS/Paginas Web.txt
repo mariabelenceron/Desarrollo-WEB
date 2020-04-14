@@ -7,6 +7,7 @@ HTML/CSS
    https://vigilant-boyd-74e8d8.netlify.com
 4. CUARTA PAGINA (VENTA DE CAMISETAS)
    https://cranky-wiles-da34e0.netlify.com
-5. QUINTA PAGINA (Diseno y Desarrollo Freelancer) 
+5. QUINTA PAGINA (DISENO Y DESARROLLO FREELANCER CON FLEX) 
    https://keen-bose-3c11b0.netlify.com
-6. SEXTA PAGINA 
+6. SEXTA PAGINA (VENTA CAMISETAS CON GRID)
+   https://tienda-camisetas-frontend.netlify.com

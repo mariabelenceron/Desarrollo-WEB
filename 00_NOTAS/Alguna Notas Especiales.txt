@@ -2,7 +2,6 @@ Box Sizing-Paul Irish
 Para que el padding no se vea afectado en Nada
 	html {
     		box-sizing: border-box;
-    		height: 100%;
 	}
 
 	*,
@@ -10,3 +9,30 @@ Para que el padding no se vea afectado en Nada
 	*:after {
    		 box-sizing: inherit;
 	}
+
+Para utilizar los rems iguales a los 1rem = 10px
+	html {
+		font-size: 62.5%;
+	}
+Centrar todo el contenido
+	.contenedor {
+    		max-width: 1000px;
+    		width: 95%;
+    		margin: 0 auto;
+	}
+Para hacer que el footer se quede en la parte de abajo:
+/** HTML **/
+<body class="footer-fijo">
+	...
+</body>
+
+/** CSS **/
+body.footer-fijo {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+body.footer-fijo main {
+    flex: 1;
+}
